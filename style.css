@@ -1,0 +1,68 @@
+/* ul a:link
+{
+  color: black;
+} */
+header {
+  background-color: cyan;
+  /* Horizontal mittig */
+  /* text-align: center; */
+  /* display: inline-block; */
+  /* position: absolute; */
+  /* box-sizing: content-box; */
+  width: 100%;
+  position: fixed;
+  margin: -100px -5px;
+  /* oder das gleiche Resultat mit top: 0; und left: 0; */
+  /* top: 0; 
+  left: 0;  */
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* Wir sollen hier ganzer Frame runter bringen und nicht nur 
+List Section, deswegen benutzen wir main */
+.main {
+  margin-top: 100px;
+}
+/* .list{
+    position: relative;
+    /* top: 50px;
+    bottom: 90px; */
+/* } */
+/* .list{
+    margin-bottom: ;
+} */
+.zweiteElement {
+  color: blue;
+  /* display: inline-block; */
+}
+.image {
+  display: inline-block;
+}
+.gleicheKlasse {
+  color: rgb(255, 165, 0);
+  font-size: 2em;
+  text-transform: uppercase;
+}
+ul a:visited {
+  color: green;
+}
+ul a:hover {
+  color: red;
+}
+/* .images {
+  display: block;
+} */
+/* .BoxModelImage {
+  height: 200px; /* 5px?? */
+/* width: 200px; 5px?? */
+/* } */
+.box-model {
+  margin: 87.7px; /* 877*10% = 87.7 ~ 88px */ /* oder margin: 10% */
+  padding: 5px;
+}
+.tree {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px; /* border-radius: 50% */
+}
